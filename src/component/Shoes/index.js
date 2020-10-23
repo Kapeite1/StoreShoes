@@ -20,7 +20,7 @@ export default function Shoes(props) {
        {filterDesc(props.children)}
      </Text>
      <View opacity= {0.4}>
-      <Text style={styles.shoesText}> {props.cost} </Text>
+      <Text style={styles.shoesText}> R$ {props.cost} </Text>
      </View>
      
    </TouchableOpacity>

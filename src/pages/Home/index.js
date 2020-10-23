@@ -36,26 +36,26 @@ export default function home() {
      <ScrollView>
        <Text style={styles.text}>LANÇAMENTO</Text>
        <View style={{flexDirection: 'row', justifyContent: 'space-around' }}>
-          <Shoes img={require('../../assets/1.png')} cost="R$ 140,90" onClick={() => navigation.navigate('Detail')}>
+          <Shoes img={require('../../assets/1.png')} cost="140,90" onClick={() => navigation.navigate('Detail')}>
             Nike Air Max Dia
           </Shoes>
-          <Shoes img={require('../../assets/2.png')} cost="R$ 280,90" onClick={() => navigation.navigate('Detail')}>
+          <Shoes img={require('../../assets/2.png')} cost="280,90" onClick={() => navigation.navigate('Detail')}>
             Nike Downshifter 10 
           </Shoes>
        </View>
        <View style={{flexDirection: 'row', justifyContent: 'space-around' }}>
-          <Shoes img={require('../../assets/1.png')} cost="R$ 140,90" onClick={() => navigation.navigate('Detail')}>
+          <Shoes img={require('../../assets/1.png')} cost="140,90" onClick={() => navigation.navigate('Detail')}>
             Nike Air Max Dia
           </Shoes>
-          <Shoes img={require('../../assets/2.png')} cost="R$ 280,90" onClick={() => navigation.navigate('Detail')}>
+          <Shoes img={require('../../assets/2.png')} cost="280,90" onClick={() => navigation.navigate('Detail')}>
             Nike Downshifter 10 
           </Shoes>
        </View>
        <View style={{flexDirection: 'row', justifyContent: 'space-around' }}>
-          <Shoes img={require('../../assets/1.png')} cost="R$ 140,90" onClick={() => navigation.navigate('Detail')}>
+          <Shoes img={require('../../assets/1.png')} cost="140,90" onClick={() => navigation.navigate('Detail')}>
             Nike Air Max Dia
           </Shoes>
-          <Shoes img={require('../../assets/2.png')} cost="R$ 280,90" onClick={() => navigation.navigate('Detail')}>
+          <Shoes img={require('../../assets/2.png')} cost="280,90" onClick={() => navigation.navigate('Detail')}>
             Nike Downshifter 10 
           </Shoes>
        </View>
